@@ -1,24 +1,24 @@
 package lab1.problem5;
 
 public class Person {
-	private final String name;
-    private final Gender gender;
+	private final String NAME;
+    private final Gender GENDER;
 
     public Person(String name, Gender gender) {
-        this.name = name;
-        this.gender = gender;
+        this.NAME = name;
+        this.GENDER = gender;
     }
 
     public Gender getGender() {
-        return gender;
+        return GENDER;
     }
 
     public String getName() {
-        return name;
+        return NAME;
     }
     
     @Override
     public String toString() {
-        return name + "(" + (gender == Gender.BOY ? "B" : "G") + ")";
+        return NAME + "(" + (GENDER == Gender.BOY ? "B" : "G") + ")";
     }
 }

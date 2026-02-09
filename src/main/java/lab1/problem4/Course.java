@@ -1,38 +1,38 @@
 package lab1.problem4;
 
 public class Course {
-	private final String name;
-	private final String description;
-	private final int credits;
-	private final String prerequisites;
+	private final String NAME;
+	private final String DESCRIPTION;
+	private final int CREDITS;
+	private final String PREREQUISTES;
 	
 	 public Course(String name, String description, int credits, String prerequisites) {
-	     this.name = name;
-	     this.description = description;
-	     this.credits = credits;
-	     this.prerequisites = prerequisites;
+	     this.NAME = name;
+	     this.DESCRIPTION = description;
+	     this.CREDITS = credits;
+	     this.PREREQUISTES = prerequisites;
 	 }
 
 	 public String getName() {
-		 return name;
+		 return NAME;
 	 }
 
 	 public String getDescription() {
-		 return description;
+		 return DESCRIPTION;
 	 }
 
 	 public int getCredits() {
-		 return credits;
+		 return CREDITS;
 	 }
 
 	 public String getPrerequisites() {
-		 return prerequisites;
+		 return PREREQUISTES;
 	 }
 	 
 	 @Override
 	 public String toString() {
-	     return name + " (" + credits + " credits)\n"
-	             + description + "\n"
-	             + "Prerequisites: " + (prerequisites == null || prerequisites.isEmpty() ? "None" : prerequisites);
+	     return NAME + " (" + CREDITS + " credits)\n"
+	             + PREREQUISTES + "\n"
+	             + "Prerequisites: " + (PREREQUISTES == null || PREREQUISTES.isEmpty() ? "None" : PREREQUISTES);
 	 }
 }

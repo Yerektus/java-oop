@@ -3,7 +3,7 @@ package lab1.problem2;
 public class BankAccount {
 	private static int totalAccounts = 0;
 	public static final String BANK_NAME = "Kaspi";
-	private final int accountNumber;
+	private final int ACCOUNT_NUMBER;
 	private double balance;
 	private AccountType type;
 	
@@ -12,7 +12,7 @@ public class BankAccount {
 	}
 	
 	public BankAccount(int accountNumber, AccountType type) {
-		this.accountNumber = accountNumber;
+		this.ACCOUNT_NUMBER = accountNumber;
         this.type = type;
         this.balance = 0.0;
 	}
@@ -35,7 +35,7 @@ public class BankAccount {
 	 }
 	 
 	 public int getAccountNumber() {
-		 return accountNumber;
+		 return ACCOUNT_NUMBER;
 	 }
 
 	 public double getBalance() {
