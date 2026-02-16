@@ -12,10 +12,10 @@ public class Data {
 	}
 	
 	public void addValue(double value) {
-		sum += value;
 		if (value > max) {
 			this.max = value;
 		}
+		
 		++count;
 	}
 	
