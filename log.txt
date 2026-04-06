@@ -1,0 +1,4 @@
+ERROR [missing operand]: 5.3+
+ERROR [invalid number]: 7.0+a
+ERROR [invalid number]: 10.0%2.0
+ERROR [arithmetic]: 8.0/0.0
