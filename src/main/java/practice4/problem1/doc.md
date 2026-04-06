@@ -1,0 +1,3 @@
+1. A class is a blueprint of an object, containing field state and method implementation. An interface is a contract for what an object should be able to do. A class implements an interface.
+2. Yes, they can—but only constants. All interface fields implicitly have modifiers: public static final
+3. Yes, Java does not support multiple inheritance of classes, but it does allow implementing multiple interfaces:
